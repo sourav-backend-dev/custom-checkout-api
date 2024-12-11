@@ -1,0 +1,119 @@
+/* Checkout Page Container */
+.checkout-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Side (Form) */
+.checkout-form {
+  width: 48%; /* Adjust width as needed */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form h2 {
+  font-size: 1.5em;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.checkout-form div {
+  margin-bottom: 15px;
+}
+
+.checkout-form label {
+  display: block;
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 90%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.checkout-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.checkout-form button {
+  padding: 12px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.checkout-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Right Side (Cart Items) */
+.cart-details {
+  width: 48%; /* Adjust width as needed */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-details h2 {
+  font-size: 1.5em;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.cart-details p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.cart-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-details li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cart-details img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.cart-details span {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Loading State */
+.loading-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #888;
+}
